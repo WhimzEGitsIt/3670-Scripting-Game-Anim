@@ -1,0 +1,16 @@
+polySphere -r 3 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+move -r 0 3 0 ;
+polySphere -r 2 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+move -r 0 7 0 ;
+polySphere -r 1 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+move -r 0 9.5 0;
+polyCylinder -r .7 -h 2 -sx 20 -sy 1 -sz 1 -ax 0 11 0 -rcp 0 -cuv 3 -ch 1;
+move -r 0 11 0;
+polyCylinder -r 1 -h .2 -sx 20 -sy 1 -sz 1 -ax 0 11 0 -rcp 0 -cuv 3 -ch 1;
+move -r 0 10.2 0;
+polySphere -r .15 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+move -r -.28 9.6 .9;
+polySphere -r .15 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+move -r .28 9.6 .9;
+polySphere -r .15 -sx 20 -sy 20 -ax 0 1 0 -cuv 2 -ch 1;
+move -r 0 9.3 .9;
